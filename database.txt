@@ -1,0 +1,5 @@
+use dhivya;
+create table admins (id int not null auto_increment,name varchar(20),password varchar(25), primary key(id));
+
+create table users(uid int not null auto_increment,uname varchar(20),upassword varchar(20),phonenum varchar(10),log_time varchar(10),dates varchar(10),primary key(uid));
+insert into users(uname,upassword,phonenum,log_time,dates) values('dhivya','dhivya','9876543214','10:10:10','14-08-2020'),('selvi','selvi','9638527414','11:10:00','14-08-2020');
